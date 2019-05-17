@@ -19,9 +19,9 @@
                 buttons: true
               }).then((decision) => {
                 if (decision) {
-                    $(location).attr("href",`${window.location.protocol}//${window.location.hostname}:${window.location.port}/index1.html`);
+                    $(location).attr("href",`${window.location.protocol}//${window.location.hostname}:${window.location.port}/afrolingo/index1.html`);
                 } else {
-                    $(location).attr("href",`${window.location.protocol}//${window.location.hostname}:${window.location.port}/index.html`);
+                    $(location).attr("href",`${window.location.protocol}//${window.location.hostname}:${window.location.port}/afrolingo/index.html`);
                 }
               });;
               console.log(decision);
@@ -35,9 +35,9 @@
                 buttons: true
               }).then((decision) => {
                 if (decision) {
-                    $(location).attr("href",`${window.location.protocol}//${window.location.hostname}:${window.location.port}/content.html`);
+                    $(location).attr("href",`${window.location.protocol}//${window.location.hostname}:${window.location.port}/afrolingo/content.html`);
                 } else {
-                    $(location).attr("href",`${window.location.protocol}//${window.location.hostname}:${window.location.port}/quizz.html`);
+                    $(location).attr("href",`${window.location.protocol}//${window.location.hostname}:${window.location.port}/afrolingo/quizz.html`);
                 }
               });
               //$(location).attr("href",`${window.location.protocol}//${window.location.hostname}/content.html`);
