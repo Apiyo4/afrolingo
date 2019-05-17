@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $("#explore-btn").submit(function (e) {
+    $("#explore-btn").click(function (e) {
         e.preventDefault();
         $(".form-inline.my-2.my-lg-0.begin").hide();
         $('.btn.btn-primary.returnhome').show()
