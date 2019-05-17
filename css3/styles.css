@@ -241,7 +241,7 @@ footer {
 }
 
 .card.hovercard .cardheader {
-    background: url("/images2/profile.jpg");
+    background: url("./images2/profile.jpg");
     background-size: cover;
     height: 135px;
 }
