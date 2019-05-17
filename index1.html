@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css1/styles4.css">
+  <title></title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="navbar navbar-expand-lg navbar-light">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="quizz.html">Questions</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="content.html">Content</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="index1.html">Game</a>
+          </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    <h1 class="text-center">The letter game</h1>
+    <div class="m-popup text-center">
+      <p>If your Kiswahili is as awesome as you think, play the Kiswahili game below and let us be the judge of that. For instructions on how to play click the button below:</p>
+      <button type="button" class="btn" data-toggle="modal" data-target="#myModal"> Instructions</button>
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 class="modal-title text-center">Instructions</h2>
+            </div>
+            <div class="modal-body">
+                <p id="md">Use the letters inside the box to make Kiswahili words</p>
+                <p id="md">All your words must have the letter i</p>
+                <p id="md">All your words must have the letter i</p>
+                <p id="md">There should be no names or words ending with letter o</p>
+                <p id="md">If you find a word type it in the box to find out if it's there</p>
+                <p id="md">If it's there, it gets added to the right hand side of the box and you get a point, otherwise nothing happens.</p>
+                <p id="md">See how close you come to ten</p>
+                <p id="md">If you find a word that is not on our list and should be, please tell us.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row part1">
+      <div class="col-md-6">
+        <p id="score"></p>
+      </div>
+      <div class="col-md-6 pics">
+        <img id="img1" src="images1/sad1.jpg" alt="sad">
+        <img id="img2" src="images1/happy1.jpg" alt="happy">
+      </div>
+    </div>
+    <div class="row part2">
+      <div class="col-md-5">
+
+      </div>
+      <div class="col-md-7 pics my-table">
+        <div id="word"></div>
+        <table>
+          <tr>
+            <td>a</td>
+            <td>i</td>
+            <td>k</td>
+          </tr>
+          <tr>
+            <td>n</td>
+            <td>s</td>
+            <td>h</td>
+          </tr>
+          <tr>
+            <td>o</td>
+            <td>r</td>
+            <td>d</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="info">
+      <input type="text" id="input1">
+      <button id="button1" type="button" name="button">Check word</button>
+    </div>
+    <div class="resources">
+      <h2 class="text-center">Resources</h2>
+      <p class="text-center">For other awesome resources click the following images:</p>
+      <div class="image-links">
+        <a href="https://www.duolingo.com/"><img id="img3" src="https://lh3.googleusercontent.com/KIs1LWkxfs9S-dTmp7fIGny1V9Y8RJz9i34hBk6vqL5AEFFbs2pUW6YtHH8xs6HBbA" alt="Duolingo"></a>
+        <a href="http://www.bbc.co.uk/languages/"><img id="img3" src="http://hagrmfl.weebly.com/uploads/2/3/9/0/23908573/8180819.gif" alt="Duolingo"></a>
+        <a href="https://www.busuu.com/"><img id="img3" src="https://lh3.googleusercontent.com/HYatgtvcl4yS1hrivxt5bpWVgU6gJsbNOYK-B3fTfakaQxhhcDgZUs2-sLHZDlUQedU=w500-h280-rw" alt="Duolingo"></a>
+      </div>
+    </div>
+  </div>
+    <div id="contact">
+        <h2>Contact us</h2>
+        <p>Do you want to know more about us? Send us a message and we shall get back to you.<br>Happy Learning!!</p>
+        <form id="formcontact" action="//formspree.io/perpetuamary6630@gmail.com" method="POST">
+          <div id="contacts-form">
+            <input type="text" name="name" placeholder="Name"><br>
+            <input type="text" placeholder="Location"><br>
+            <input type="email" name="replyto" placeholder="Email Address"><br>
+            <input type="hidden" name="_subject" value="Website contact" />
+            <textarea type="text" name="message" rows="8" cols="80" placeholder="Message"></textarea>
+            <button type="submit" value="send">Submit</button>
+          </div>
+  
+        </form>
+      </div>
+    </div>
+    <div class="annet">
+    <footer>
+      <div class="contactus">
+        <div class="kontacts">
+          <h4>Contacts</h4>
+          <i class="fab fa-facebook-messenger"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fas fa-phone"></i>
+        </div>
+        <div class="cookies">
+          <p>Terms and conditions</p>
+          <p>Privacy policy</p>
+          <p>Cookies</p>
+        </div>
+        <div class="home">
+          <p>Home</p>
+          <p>About Afrolingo</p>
+          <p id="contactus">Contact us</p>
+        </div>
+        <p id="copyryts">Afrolingo &copy 2019</p>
+        <p id="disclaimer">Afrolingo is not responsible for the content of external sites</p>
+      </div>
+  
+    </footer>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js1/jquery-3.4.1.js"></script>
+  <script src="js1/scripts4.js"></script>
+</body>
+
+</html>

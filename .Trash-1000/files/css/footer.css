@@ -1,0 +1,45 @@
+#contactus{
+    cursor: pointer;
+    }
+    footer{
+      background-color: #E8DAB2;
+      color: black;
+      height: 200px;
+    }
+    .cookies{
+      float: right;
+      clear: both;
+      margin-right: 10%;
+      margin-top: -5%;
+    }
+    .home{
+      margin-top: -5%;
+      float: right;
+        margin-right: 32%;
+    }
+    i{
+      font-size: 1.4em;
+      padding: 1px;
+      color: #AFAC96;
+    }
+    .cookies p , .home p{
+      font-size: 0.8em;
+    }
+    .kontacts{
+      margin-left: 3%;
+    }
+    #copyryts{
+      margin-top: 8%;
+      font-size: 0.8em;
+      margin-left: 3%;
+    }
+    #disclaimer{
+    float: right;
+    margin-top: -3%;
+    margin-right: 40%;
+    font-size: 0.8em;
+    }
+    #contact{
+      background-color: white;
+      height: 90vh;
+    }

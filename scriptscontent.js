@@ -1,0 +1,69 @@
+$(document).ready(function(){
+  $(".one-numbers").click(function(){
+    $(".numbers").show();
+    $(".one-numbers").hide();
+  $(".two").hide();
+  $(".col-md-5").hide();
+  $(".three").hide();
+  $(".four").hide();
+  $(".five").hide();
+  $(".introduction").hide();
+  })
+  $(".two-greetings").click(function(){
+    $(".greetings").show();
+    $(".golden-words").show();
+    $(".one").hide();
+      $(".col-md-5").hide();
+    $(".two-greetings").hide();
+    $(".three").hide();
+    $(".four").hide();
+    $(".five").hide();
+    $(".introduction").hide();
+  })
+  $(".three-commonwords").click(function(){
+    $(".common-words").show();
+    $(".three-commonwords").hide();
+    $(".golden-words").hide();
+      $(".col-md-5").hide();
+    $(".one").hide();
+    $(".two").hide();
+    $(".four").hide();
+    $(".five").hide();
+    $(".introduction").hide();
+  })
+  $(".four-fruits").click(function(){
+    $(".fruits").show();
+    $(".four-fruits").hide();
+    $(".one").hide();
+      $(".col-md-5").hide();
+    $(".two").hide();
+    $(".three").hide();
+    $(".five").hide();
+    $(".introduction").hide();
+  })
+  $(".five-bodyparts").click(function(){
+    $(".bodyparts").show();
+    $(".five-bodyparts").hide();
+    $(".one").hide();
+    $(".two").hide();
+      $(".col-md-5").hide();
+    $(".three").hide();
+    $(".four").hide();
+    $(".introduction").hide();
+  })
+  $("#contactus").click(function(){
+    $("#contact").show();
+    $(".one").hide();
+    $(".two").hide();
+      $(".col-md-5").hide();
+    $(".three").hide();
+    $(".four").hide();
+    $(".five").hide();
+    $(".introduction").hide();
+    // $(".contactus").hide();
+  })
+
+})
+
+// var contactform =  document.getElementById('formcontact');
+//     contactform.setAttribute('action', '//formspree.io/' + 'perpetuamary6630' + '@' + 'gmail' + '.' + 'com');
